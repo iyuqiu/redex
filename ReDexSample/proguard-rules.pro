@@ -28,3 +28,12 @@
 -dontobfuscate
 -keepattributes SourceFile,LineNumberTable
 -keep class com.sample.oatmeal {*;}
+
+-dontwarn com.google.j2objc.annotations.Weak
+-dontwarn java.beans.MethodDescriptor
+-dontwarn java.beans.PropertyDescriptor
+-dontwarn java.beans.SimpleBeanInfo
+-dontwarn java.lang.ClassValue
+-dontwarn java.lang.management.ManagementFactory
+-dontwarn java.lang.management.RuntimeMXBean
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
